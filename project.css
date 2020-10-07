@@ -1,0 +1,93 @@
+.child1{
+    border: 2px solid #ddd;
+    padding:1%;
+    margin:1%;
+    width:30%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10%;
+}
+.child2{
+    border: 2px solid #ddd;
+    padding:1%;
+    margin:1%;
+    width:65%;
+    font-size: 25px;
+    border-radius: 10%;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    border:2px solid red;
+    
+    padding:1%;
+    margin:1%;
+}
+img{
+    width:80%;
+    border: 2px solid black;
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .child1{
+        border: 2px solid #ddd;
+        padding:1%;
+        margin:1%;
+        width:94%;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 10%;
+    }
+    .child2{
+        border: 2px solid #ddd;
+        padding:1%;
+        margin:1%;
+        width:94%;
+        font-size: 25px;
+        border-radius: 10%;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        border:2px solid red;
+         
+        padding:1%;
+        margin:1%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px)
+{
+    .child1{
+        border: 2px solid #ddd;
+        padding:1%;
+        margin:1%;
+        width:94%;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 10%;
+        background-color: tomato;
+    }
+    .child2{
+        border: 2px solid #ddd;
+        padding:1%;
+        margin:1%;
+        width:94%;
+        font-size: 25px;
+        border-radius: 10%;
+        background-color: tomato;
+    }
+    .parent{
+        display: flex;
+        flex-direction: row;
+        border:2px solid red;
+         
+        padding:1%;
+        margin:1%;
+        background-color: rgb(71, 114, 255);
+    }
+}
+ 

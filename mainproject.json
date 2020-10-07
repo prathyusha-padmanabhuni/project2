@@ -1,0 +1,22 @@
+{
+    "card1":
+        {
+           "name":"prathyusha",
+           "emailid":"prathyushasindhusha@gmail.com",
+           "rollno":"318126510160",
+           "page":"click button to get static web page",
+           "image":"prathyusha.jpg",
+           "btn1":"static"
+        },
+    "card2":
+        {
+           "name":"prathyusha",
+           "emailid":"prathyushasindhusha@gmail.com",
+           "rollno":"318126510160",
+           "page":"click button to get dynamic web page",
+           "image":"prathyusha.jpg",
+           "btn2":"dynamic"
+        }
+
+    
+}

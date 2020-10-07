@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(138, 173, 143);
+}
+img{
+    width:30%;
+    height:50%;
+    border: 2px solid black;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parent{
+    background-color: rgb(151, 204, 184);
+    margin:5%;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 5%;
+    height:85%;
+     
+}
+
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .parent{
+        display:inline-block;
+        margin:1%;
+         
+    }
+    .child{
+        width:88%;
+
+    }
+    p{font-size: 45px;}
+}
+@media screen and (min-width:481px) and (max-width:720px)
+{
+    .parent{
+        
+        flex-wrap: wrap;
+         
+    }
+}

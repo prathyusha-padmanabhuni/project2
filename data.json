@@ -1,0 +1,51 @@
+{
+    "details":{
+        "name":"prathyusha",
+        "image":"prathyusha.jpg",
+         "email":"prathyushasindhusha@gmail.com",
+         "number":"8374330346",
+         "address":"kakinada"
+    },
+    "careerobjective":{
+        "info1":"to become a software developer"
+    },
+    "educationalqualification":[
+        {
+            "institute":"anits",
+            "degree":"btech",
+            "passoutyear":"2022",
+            "percentage":"93%"
+        },
+        {
+            "institute":"sri chaitanya",
+            "degree":"intermediate",
+            "passoutyear":"2018",
+            "percentage":"96%"
+        },
+        {
+            "institute":"sri chaitanya",
+            "degree":"ssc",
+            "passoutyear":"2016",
+            "percentage":"100%"
+        }
+    ],
+    "technicaldetails":[
+        {
+            "title":"programming languages",
+             "info":["c,cpp,java"]
+        },
+        {
+            "title":"databases",
+             "info":["oracle,sql,mysql"]
+        },
+        {
+            "title":"operating systems",
+             "info":["windows,ubuntu,linux"]
+        }
+
+    ]
+
+
+    
+
+}
